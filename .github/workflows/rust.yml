@@ -16,4 +16,4 @@ jobs:
 
     steps:
     - name: Run tests
-      run: echo $API_KEY
+      run: echo ${{ secrets.APY_KEY }}
